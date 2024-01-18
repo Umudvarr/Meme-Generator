@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: blueviolet;
+  align-items: center;
+  height: 65px;
+  padding: 15px;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.nav-left h1 {
+  color: white;
+}
+
+.trollFace {
+  width: 60px;
+  margin: 15px;
+}
+
+.header h3 {
+  color: white;
+  padding: 15px;
+  font-weight: 500;
+}
+
+/* Meme */
+
+main {
+  padding: 80px;
+}
+
+.meme-form {
+  padding-left: -10px;
+  padding-right: -10px;
+}
+
+.meme-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.meme-text1 {
+  width: 100%;
+  height: 50px;
+  margin: 10px 10px 40px 10px;
+  padding-left: 10px;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  text-indent: 5px;
+}
+
+.meme-text2 {
+  width: 100%;
+  height: 50px;
+  margin: 10px 10px 40px 10px;
+  padding-left: 10px;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  text-indent: 5px;
+}
+
+.meme-button {
+  background-color: blueviolet;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+
+.meme {
+  max-width: 400px;
+}
